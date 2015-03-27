@@ -9,7 +9,7 @@ a single instance deployment.
 
 # Run
 
-* ```sudo docker run -p 4001:4001 --name etcd -d <name>/etcd```
+* ```sudo docker run -p 4001:4001 --name etcd -d --restart=always <name>/etcd```
 
 # Test
 
